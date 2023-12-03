@@ -52,7 +52,7 @@ export const Forms = ({
         </Row>
 
         <Button style={{ margin: "20px auto" }} variant="primary" type="submit">
-          Add Contact
+          Add
         </Button>
       </Form>
     </Container>
