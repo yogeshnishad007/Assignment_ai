@@ -1,14 +1,15 @@
 
 import './App.css'
-import ContactForm from './Components/ContactForm'
+import Home from './Components/Home'
+
 
 function App() {
   
 
   return (
     <>
-      <h1>Home</h1>
-      <ContactForm/>
+      <h1>PhoneBook</h1>
+        <Home/>
     </>
   )
 }
