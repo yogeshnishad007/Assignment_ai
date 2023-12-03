@@ -14,7 +14,7 @@ const Item = ({
     setList(list.filter((el) => el.id !== id));
   };
 
-  //Edit Todo
+
   const handleEdit = (id) => {
     const editItem = list.find((el) => el.id === id);
     setName(editItem.name);
